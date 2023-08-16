@@ -27,7 +27,7 @@ btns.forEach(function (btn) {
       }
       //get value
       if (value !== null) {
-        value.textContent = count.toString();
+        value.textContent = count.toString().padStart(2, "0");
       }
     }
   });
